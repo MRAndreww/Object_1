@@ -5,12 +5,8 @@ public class Main {
     public static void main (String[]arg) {
 
         Author dostoevsky = new Author ("Fedor", "Dostoevsky");
-        System.out.println("dostoevsky.firstName = " + dostoevsky.firstName);
-        System.out.println("dostoevsky.secondName = " + dostoevsky.secondName);
 
         Author gogol = new Author("Nicolai", "Gogol");
-        System.out.println("gogol.firstName = " + gogol.firstName);
-        System.out.println("gogol.secondName = " + gogol.secondName);
 
 
         Book idiot = new Book("Idiot", new Author("Fedor", "Dostoevsky"),1869);
