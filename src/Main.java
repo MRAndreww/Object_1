@@ -10,13 +10,20 @@ public class Main {
 
 
         Book idiot = new Book("Idiot", new Author("Fedor", "Dostoevsky"),1869);
+        Book idiot1 = new Book("Idiot", new Author("Fedor", "Dostoevsky"),1869);
         System.out.println("idiot.name = " + idiot.getName());
-        System.out.println("idiot.author = " + idiot.getAuthor());
+        //System.out.println("idiot.author = " + ());
         System.out.println("idiot.year = " + idiot.getYear());
-        idiot.setYear(1788);
+        //idiot.setYear(1788);
         System.out.println("idiot.getYear() = " + idiot.getYear());
 
         Book vii = new Book("Vii", new Author("Nicolai", "Gogol"), 1833);
+
+        System.out.println( new Book("Idiot", new Author("Fedor", "Dostoevsky"),1869));
+        System.out.println(new Author("Fedor", "Dostoevsky"));
+
+        System.out.println(idiot.equals(idiot1));
+
 
     }
 
